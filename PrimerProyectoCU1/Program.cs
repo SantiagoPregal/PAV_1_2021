@@ -14,7 +14,7 @@ namespace PrimerProyectoCU1
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            Application.EnableVStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmLogin());
         }
